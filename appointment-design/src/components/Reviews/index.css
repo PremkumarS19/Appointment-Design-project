@@ -1,0 +1,25 @@
+.review{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.name-cont{
+    margin: 5px;
+    padding: 10px;
+}
+h3{
+    font-size: 12px;
+    font-family: roboto;
+    font-weight: 500;
+    color: black;
+    margin-top: 10px;
+}
+.review-content{
+    font-size: 8px;
+    font-family: roboto;
+    margin-bottom: 10px;
+}

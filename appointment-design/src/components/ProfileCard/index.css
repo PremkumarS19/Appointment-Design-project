@@ -1,0 +1,176 @@
+.profile-card {
+  width: 100%;
+  max-width: 900px;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.cover-pic {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card-details {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-pic-cont {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.profile-pic {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.job-role {
+  font-size: 16px;
+  color: gray;
+  margin: 5px 0;
+}
+
+.rating {
+  color: #ffcc00; /* Gold star color */
+  font-weight: bold;
+}
+
+.profile-stats {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.follower-para {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 5px;
+}
+
+.followers {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.book-button {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  background-color: #28a745; 
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.book-button:hover {
+  background-color: #218838; 
+}
+
+
+@media (max-width: 768px) {
+  .profile-pic-cont {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-pic {
+    width: 60px;
+    height: 60px;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .profile-details {
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile-stats {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stats {
+    margin-bottom: 10px;
+  }
+
+  .name {
+    font-size: 20px;
+  }
+
+  .job-role {
+    font-size: 14px;
+  }
+
+  .followers {
+    font-size: 16px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .profile-card {
+    padding: 10px;
+  }
+
+  .cover-pic {
+    height: 100px;
+  }
+
+  .profile-pic {
+    width: 50px;
+    height: 50px;
+  }
+
+  .name {
+    font-size: 18px;
+  }
+
+  .job-role {
+    font-size: 12px;
+  }
+
+  .followers {
+    font-size: 14px;
+  }
+
+  .book-button {
+    padding: 12px;
+    font-size: 14px;
+  }
+}

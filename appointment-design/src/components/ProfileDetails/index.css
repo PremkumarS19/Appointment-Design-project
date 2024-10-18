@@ -1,0 +1,245 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    min-height: 90vh;
+  }
+  
+  
+  
+.about-section {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 1px solid rgba(248, 248, 247, 0.46);
+    flex-wrap: wrap;
+  }
+  
+  .about-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    background-image: linear-gradient(to right,#F4F7EC 0%, rgba(248, 248, 247, 0.46) 100%);
+    padding: 10px;
+    width: 100%;
+  }
+  .special-heading{
+    font-size: 20px;
+    font-family: roboto;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  .aboutme{
+    font-size: 12px;
+    font-family: roboto;
+    padding: 10px;
+    margin: 10px;
+  }
+  .follow-btn {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+.language-head{
+    color: black;
+    font-size: 15px;
+    font-family: roboto;
+    font-weight: 500;
+}
+  .languages-section {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    margin: 8px;
+    margin-bottom: 0;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .languages-list {
+    list-style-type: none;
+    padding-left: 10px;
+    margin-bottom: 0;
+  }
+  
+  .languages-list li {
+    background-color: #e6e6e6;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 5px;
+  }
+  .languages-icons{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .icons{
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+  }
+  .specialization-section {
+    margin-bottom: 30px;
+  }
+  .special-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    background-image: linear-gradient(to right,#F4F7EC 0%, rgba(248, 248, 247, 0.46) 100%);
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .treatment-section {
+    margin-bottom: 30px;
+  }
+  
+  .treatment-section ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .experience-section {
+    margin-bottom: 30px;
+  }
+  
+  .experience-section ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .reviews-section {
+    margin-bottom: 30px;
+  }
+  .reviews{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  .work{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 10px;
+  }
+  .specialization-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 10px;
+  }
+  .treat{
+    border: none;
+    border-radius: 8px;
+    background-color: cornsilk; 
+    color: black;
+    font-size: 10px;
+    font-family: roboto;
+    margin: 10px;padding: 10px;
+  }
+  .list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .reviews{
+    padding: 10px;
+    margin: 10px;
+  }
+
+  @media (max-width: 768px) {
+    .about-header,
+    .special-head {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .languages-section,
+    .languages-list {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .list {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .specialization-icons,
+    .work,
+    .reviews {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .aboutme {
+      font-size: 14px;
+    }
+  
+    .special-heading {
+      font-size: 18px;
+    }
+  
+    .treat {
+      font-size: 12px;
+      padding: 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .aboutme {
+      font-size: 12px;
+      padding: 8px;
+    }
+  
+    .special-heading {
+      font-size: 16px;
+    }
+  
+    .language-head {
+      font-size: 14px;
+    }
+  
+    .treat {
+      font-size: 10px;
+      padding: 10px;
+    }
+  
+    .languages-list li {
+      padding: 4px 8px;
+    }
+  
+    .follow-btn {
+      padding: 6px 12px;
+      font-size: 14px;
+    }
+  
+    .icons {
+      padding: 10px;
+      margin: 5px;
+    }
+  }

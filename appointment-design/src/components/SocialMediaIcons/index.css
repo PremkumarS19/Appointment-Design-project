@@ -1,0 +1,18 @@
+.social-media-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Center the icons */
+    gap: 30px; /* Space between icons */
+    padding: 30px;
+  }
+  
+  .social-media-icons a {
+    color: #000; /* Icon color */
+    font-size: 34px; /* Icon size */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .social-media-icons a:hover {
+    color: grey; /* Change color on hover */
+  }
+  

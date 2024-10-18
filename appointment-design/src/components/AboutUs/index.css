@@ -1,0 +1,21 @@
+.aboutus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    padding: 30px;
+}
+.heading{
+    font-size: 25px;
+    font-family: roboto;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 15px;
+    font-family: roboto;
+    padding: 20px;
+}

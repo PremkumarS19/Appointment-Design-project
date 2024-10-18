@@ -1,0 +1,120 @@
+.profic-pic {
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+}
+
+.cover-pic {
+    height: 40px;
+    width: 60px;
+}
+
+.doctor-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF7E2;
+    border: none;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    width: 25vw;
+    flex-wrap: wrap;
+}
+
+/* Responsive layout for smaller screens */
+@media only screen and (max-width: 768px) {
+    .doctor-card {
+        width: 40vw;
+        padding: 15px;
+        margin: 15px;
+    }
+
+    .profic-pic {
+        height: 40px;
+        width: 40px;
+        border-radius: 20px;
+    }
+
+    .cover-pic {
+        height: 30px;
+        width: 50px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+    
+    .view-profile-button, .book-appointment-button {
+        padding: 15px;
+    }
+}
+
+/* Further adjustments for mobile screens */
+@media only screen and (max-width: 480px) {
+    .doctor-card {
+        width: 80vw;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .profic-pic {
+        height: 30px;
+        width: 30px;
+        border-radius: 15px;
+    }
+
+    .cover-pic {
+        height: 25px;
+        width: 40px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    .view-profile-button, .book-appointment-button {
+        padding: 10px;
+    }
+}
+
+.doctor-role, .doctor-rating, .doctor-languages {
+    font-family: roboto;
+    font-size: 15px;
+    color: grey;
+    padding: 5px;
+}
+
+.view-profile-button {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.actions {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 100%;
+}
+
+.book-appointment-button {
+    width: 100%;
+    color: white;
+    font-weight: 500;
+    margin-top: 10px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: roboto;
+}
